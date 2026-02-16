@@ -26,6 +26,9 @@ export default function Navigation() {
               <Link href="/about" className="text-white font-bold uppercase text-sm tracking-wider hover:text-acid-green transition-colors">
                 About
               </Link>
+              <Link href="/blog" className="text-white font-bold uppercase text-sm tracking-wider hover:text-neon-pink transition-colors">
+                Blog
+              </Link>
               <Link href="/shop" className="bg-neon-pink text-black font-black px-6 py-3 uppercase text-sm hover:bg-acid-green transition-colors">
                 Shop
               </Link>
@@ -78,6 +81,13 @@ export default function Navigation() {
                 onClick={() => setIsOpen(false)}
               >
                 About
+              </Link>
+              <Link
+                href="/blog"
+                className="block text-white font-bold uppercase text-sm tracking-wider hover:text-neon-pink transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Blog
               </Link>
               <Link
                 href="/shop"

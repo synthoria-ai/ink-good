@@ -156,7 +156,7 @@ function ContentCard({ item }: { item: ContentItem }) {
 
 export default function SmartGrid() {
   return (
-    <section className="py-24 px-4 bg-black">
+    <section id="smart-grid" className="py-24 px-4 bg-black">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16 text-center">
           <h2 className="text-5xl md:text-7xl font-black text-neon-pink glow-pink uppercase mb-4">
